@@ -1,0 +1,17 @@
+# Vagrant
+.vagrant
+
+# Ansible
+*.retry
+*.cache
+
+# local
+roles/*
+!roles/README.md
+!roles/local.*
+# BEGIN testup
+Gemfile
+Gemfile.lock
+.bundle/
+vendor/
+# END testup

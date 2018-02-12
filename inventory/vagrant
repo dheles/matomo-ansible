@@ -1,0 +1,14 @@
+# dev (vagrant):
+# ------------------
+[default]
+matomo.test
+
+[app]
+matomo.test
+
+#[db]
+#db.test
+
+[dev:children]
+app
+#db
